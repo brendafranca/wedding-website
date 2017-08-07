@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	background-color: #cccac9;
+}
+
+h1 {
+	color: #000000;
+	font-family: 'Miss Fajardose', 'cursive';
+	font-size: 48px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	color: #ff8884;
+	font-family: 'Miss Fajardose', cursive;
+	font-size: 72px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 40px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+h3 {
+	color: #000000;
+	font-family: 'Josefin Slab', serif;
+	font-size: 64px;
+	font-weight: 100;
+	text-align: center;
+	border-bottom: 2px solid;
+	margin-top: 20px;
+}
+
+p {
+	font-family: 'Josefin Slab', serif;
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	border-bottom: 1px solid;
+	padding-bottom: 20px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+img.welcome {
+	display: block;
+	margin: auto;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	text-align: center;
+}
+
+.row:before, .row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.column {
+	width: 100%;
+}
+
+/*Removes bullet points from list and aligns to center*/
+.style-nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+/*Displays menu in mobile screen*/
+.style-nav ul li {
+	display: block;
+}
+
+/*Applies decorations to the text*/
+.style-nav ul li a {
+	font-family: 'Work Sans', sans-serif;
+	font-size: 30px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #000000;
+	text-transform: uppercase;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+/*Creates new color when you hover over the menu*/
+.nav-main a:hover {
+	color: #ff8884;
+}
+
+/*Tablet view of website*/
+
+@media (min-width: 768px){
+	
+	body {
+		max-width: 1000px;
+	}
+	
+	h1 {
+		font-size: 64px;
+		text-align: center;
+	}
+	
+	h2 {
+	    font-size: 96px;
+	    text-align: center;
+    }
+	
+	p {
+		text-align: justify;
+		padding-bottom: 20px;
+	    margin-left: 150px;
+	    margin-right: 150px;
+	}
+	
+	.style-nav ul li {
+		display: block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+}
+
+/*Desktop view of the website*/
+
+@media (min-width: 1024px) {
+	
+	body {
+		max-width: 1500px;
+	}
+	
+	h1 {
+		font-size: 64px;
+		text-align: center;
+	}
+	
+	h2 {
+	    font-size: 96px;
+	    text-align: center;
+    }
+	
+	p {
+		text-align: center;
+		padding-bottom: 20px;
+	    margin-left: 150px;
+	    margin-right: 150px;
+	}
+	
+	.style-nav ul li a {
+		font-weight: 100;
+	}
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	
+	.style-nav ul {
+		text-align: center;
+	}
+}
+
+
+
+
+
+
